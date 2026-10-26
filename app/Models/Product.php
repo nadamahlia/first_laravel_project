@@ -12,6 +12,9 @@ class Product extends Model
         'family_id',
         'image_link',
         'user_id',
+        'price',
+        'description',
+        'status',
     ];
 
     public function family(): BelongsTo
